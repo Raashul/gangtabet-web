@@ -9,7 +9,7 @@ export const Nav = styled.nav`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	position: sticky;
 	top: 0;
 	z-index: 999;
@@ -68,7 +68,7 @@ export const NavMenu = styled.ul`
 		left: ${({ click }) => (click ? 0 : '-100%')};
 		opacity: 1;
 		transition: all 0.4s ease;
-		background: #101522;
+		background: #478dad;
 	}
 `;
 
@@ -102,7 +102,7 @@ export const NavLinks = styled(Link)`
 		display: table;
 
 		&:hover {
-			color: #4b59f7;
+			color: black;
 			transition: all 0.3s ease;
 		}
 	}

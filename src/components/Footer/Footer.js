@@ -8,9 +8,9 @@ import { FooterContainer, FooterLink, FooterLinkContainer } from './Footer.eleme
 function Footer() {
 	return (
 		<FooterContainer>
-			<Grid container>
+			<Grid container spacing={3}>
 				<Grid item xs={12} sm={6}>
-					<AppText fontSize="12">© 2021 GangstaBet</AppText>
+					<AppText fontSize="0.7">© 2021 GangstaBet</AppText>
 				</Grid>
 				<Grid item xs={12} sm={6}>
 					<FooterLinkContainer>

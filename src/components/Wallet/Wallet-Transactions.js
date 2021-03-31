@@ -12,7 +12,7 @@ function WalletTransactions() {
 					</Col>
 
 					<Col>
-						<AppText fontSize="12">No pending transactions</AppText>
+						<AppText fontSize="1">No pending transactions</AppText>
 					</Col>
 				</Row>
 			</TransactionContainer>
@@ -24,7 +24,7 @@ function WalletTransactions() {
 					</Col>
 
 					<Col>
-						<AppText fontSize="12">No completed transactions</AppText>
+						<AppText fontSize="1">No completed transactions</AppText>
 					</Col>
 				</Row>
 			</TransactionContainer>

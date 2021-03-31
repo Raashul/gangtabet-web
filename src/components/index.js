@@ -6,3 +6,7 @@ export { default as HomeHow } from './Home/Home-How';
 export { default as TokenIntro } from './Token/Token-Intro';
 export { default as WalletTransactions } from './Wallet/Wallet-Transactions';
 export { default as Footer } from './Footer/Footer';
+export { default as GalleryCard } from './Gallery/Gallery-Card';
+export { default as GalleryFeatures } from './Gallery/Gallery-Features';
+export { default as GangsterDescription } from './Gangster/Gangster-Description';
+export { default as GangsterNaming } from './Gangster/Gangster-Naming';

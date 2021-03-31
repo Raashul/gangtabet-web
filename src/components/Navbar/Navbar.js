@@ -58,11 +58,11 @@ export default function Navbar() {
 							</NavItem>
 
 							<NavItem>
-								<NavLinks to="/wallet">WALLET</NavLinks>
+								<NavLinks to="/gallery">GALLERY</NavLinks>
 							</NavItem>
 
 							<NavItem>
-								<NavLinks to="/">BLOG</NavLinks>
+								<NavLinks to="/wallet">WALLET</NavLinks>
 							</NavItem>
 
 							{/* <NavItemBtn>

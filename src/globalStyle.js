@@ -19,8 +19,8 @@ export const Container = styled.div`
 	max-width: 1300px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 70px;
-	padding-right: 70px;
+	padding-left: 50px;
+	padding-right: 50px;
 	margin-bottom: 20px;
 	margin-top: 20px;
 
@@ -64,9 +64,11 @@ export const Col = styled.div`
 `;
 
 export const AppText = styled.p`
-	font-size: ${({ fontSize }) => (fontSize ? fontSize : '1.1rem')};
+	font-size: ${({ fontSize }) => (fontSize ? fontSize + 'rem' : '1rem')};
+	font-weight: ${({ bold }) => (bold ? 'bold' : 'none')};
 	color: #363636;
 	line-height: 1.6;
+	color: ${({ color }) => (color ? color : '')};
 `;
 
 export const HeadingText = styled.p`
@@ -74,6 +76,14 @@ export const HeadingText = styled.p`
 	font-weight: bold;
 `;
 
+export const Margin = styled.div`margin-top: ${({ mt }) => (mt ? mt + 'px' : '0px')};`;
+
 export const SubHeadingText = styled.p`font-size: ${({ fontSize }) => (fontSize ? fontSize : '1.2rem')};`;
+
+export const AttributesTag = styled.div`
+	padding: 5px 15px;
+	border-radius: 5px;
+	background: ${({ background }) => (background ? background : '#478dad')};
+`;
 
 export default GlobalStyle;

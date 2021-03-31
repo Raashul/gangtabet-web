@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import Grid from '@material-ui/core/Grid';
 
 export const FooterContainer = styled.div`
 	margin-top: 50px;
@@ -24,11 +25,11 @@ export const FooterLink = styled(Link)`
 	align-items: center;
 	text-decoration: none;
   height: 100%;
-  padding: 1rem;
+  padding-left: 1.2rem;
 
 
 		&:hover {
-			color: #4b59f7;
+			color: black;
 			transition: all 0.3s ease;
 		}
 	
