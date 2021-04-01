@@ -13,7 +13,7 @@ import {
 } from './Navbar.elements';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import { Button } from '../../globalStyle';
+import { Button, AppText } from '../../globalStyle';
 
 export default function Navbar() {
 	const [ click, setClick ] = useState(false);
@@ -42,8 +42,10 @@ export default function Navbar() {
 				<Nav>
 					<NavbarContainer>
 						<NavLogo to="/">
-							<NavIcon />
-							GangstaBet
+							{/* <NavIcon /> */}
+							<AppText color="#fff" fontSize="1.3">
+								GANGSTA BET
+							</AppText>
 						</NavLogo>
 
 						<MobileIcon onClick={handleClick}>{click ? <FaTimes /> : <FaBars />}</MobileIcon>

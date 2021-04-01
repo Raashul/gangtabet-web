@@ -69,6 +69,8 @@ export const AppText = styled.p`
 	color: #363636;
 	line-height: 1.6;
 	color: ${({ color }) => (color ? color : '')};
+	cursor: ${({ cursor }) => (cursor ? 'pointer' : '')};
+	text-decoration: ${({ underline }) => (underline ? 'underline' : '')};
 `;
 
 export const HeadingText = styled.p`

@@ -10,3 +10,4 @@ export { default as GalleryCard } from './Gallery/Gallery-Card';
 export { default as GalleryFeatures } from './Gallery/Gallery-Features';
 export { default as GangsterDescription } from './Gangster/Gangster-Description';
 export { default as GangsterNaming } from './Gangster/Gangster-Naming';
+export { default as ReleaseBanner } from './Release/Release-Banner';

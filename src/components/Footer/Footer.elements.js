@@ -6,6 +6,10 @@ export const FooterContainer = styled.div`
 	margin-top: 50px;
 	padding: 30px 70px;
 	border-top: 2px solid grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	@media screen and (max-width: 850px) {
 		padding: 60px 20px;
 	}

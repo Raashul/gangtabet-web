@@ -94,6 +94,7 @@ export const NavLinks = styled(Link)`
 	text-decoration: none;
 	padding: 0.5rem 1rem;
 	height: 100%;
+	font-size: 1rem;
 
 	@media screen and (max-width: 1800px) {
 		text-align: center;
